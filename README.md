@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Ngrx commands
+
+    ng add @ngrx/store@latest --minimal false
+    ng add @ngrx/store-devtools@latest
+    ng add @ngrx/schematics@latest
+    ng generate store auth/auth --module auth.module.ts
+
+    
